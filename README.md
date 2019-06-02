@@ -6,7 +6,7 @@
 
 -----
 注意！我们只允许你修改以下文件，对其他文件的修改会被拒绝：
-- [src/main/java/com/github/hcsp/datatype/Main.java](https://github.com/hcsp/fix-boolean-return-value-npe/blob/master/src/main/java/com/github/hcsp/datatype/Main.java)
+- [src/main/java/com/github/hcsp/datatype/Light.java](https://github.com/hcsp/fix-boolean-return-value-npe/blob/master/src/main/java/com/github/hcsp/datatype/Light.java)
 -----
 
 
