@@ -11,7 +11,11 @@ public class Light {
         this.on = on;
     }
 
-    public boolean isOn() {
-        return on;
+    public Boolean isOn() {
+        if(on == null) {
+            return false;
+        }else {
+            return on;
+        }
     }
 }
