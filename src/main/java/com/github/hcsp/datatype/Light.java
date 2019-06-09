@@ -8,6 +8,9 @@ public class Light {
     Boolean on;
 
     public Light(Boolean on) {
+        if(on == null) {
+            on = false;
+        }
         this.on = on;
     }
 
