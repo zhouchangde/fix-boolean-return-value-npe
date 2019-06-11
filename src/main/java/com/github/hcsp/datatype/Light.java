@@ -7,7 +7,11 @@ public class Light {
     // 未知 -> null
     Boolean on;
 
+
     public Light(Boolean on) {
+        if (on == null) {
+            on = false;
+        }
         this.on = on;
     }
 
