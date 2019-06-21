@@ -5,7 +5,7 @@ public class Light {
     // 亮 -> true
     // 灭 -> off
     // 未知 -> null
-    Boolean on;
+    Boolean on ;
 
     public Light(Boolean on) {
         this.on = on;
@@ -13,6 +13,10 @@ public class Light {
 
     // 当灯亮时返回true，灭和未知状态返回false
     public boolean isOn() {
+        if(on == null){
+            return false;
+        }
         return on;
     }
+
 }
