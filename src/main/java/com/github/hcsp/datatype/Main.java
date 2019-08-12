@@ -14,6 +14,5 @@ public class Main {
         Light light3 = new Light(false);
         boolean on3 = light3.isOn();
         System.out.println("灭了的灯亮着吗：" + on3);
-
     }
 }
